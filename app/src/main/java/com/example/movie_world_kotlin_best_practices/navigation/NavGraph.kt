@@ -6,10 +6,20 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
+import androidx.navigation.navArgument
 import com.example.movie_world_kotlin_best_practices.R
 import com.example.movie_world_kotlin_best_practices.data.model.moviedetail.Genre
+import com.example.movie_world_kotlin_best_practices.ui.screens.artistdetail.ArtistDetail
+import com.example.movie_world_kotlin_best_practices.ui.screens.bottomnavigation.nowplaying.NowPlaying
+import com.example.movie_world_kotlin_best_practices.ui.screens.bottomnavigation.popular.Popular
+import com.example.movie_world_kotlin_best_practices.ui.screens.bottomnavigation.toprated.TopRated
+import com.example.movie_world_kotlin_best_practices.ui.screens.bottomnavigation.upcoming.Upcoming
+import com.example.movie_world_kotlin_best_practices.ui.screens.genre.GenreScreen
+import com.example.movie_world_kotlin_best_practices.ui.screens.moviedetail.MovieDetail
 
 @Composable
 fun Navigation(

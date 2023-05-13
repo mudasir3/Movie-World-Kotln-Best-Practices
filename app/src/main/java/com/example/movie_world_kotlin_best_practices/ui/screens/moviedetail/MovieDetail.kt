@@ -30,7 +30,10 @@ import com.example.movie_world_kotlin_best_practices.ui.component.ExpandingText
 import com.example.movie_world_kotlin_best_practices.ui.component.text.SubtitlePrimary
 import com.example.movie_world_kotlin_best_practices.ui.component.text.SubtitleSecondary
 import com.example.movie_world_kotlin_best_practices.ui.theme.*
+import com.example.movie_world_kotlin_best_practices.utils.hourMinutes
 import com.example.movie_world_kotlin_best_practices.utils.network.DataState
+import com.example.movie_world_kotlin_best_practices.utils.pagingLoadingState
+import com.example.movie_world_kotlin_best_practices.utils.roundTo
 import com.skydoves.landscapist.ImageOptions
 import com.skydoves.landscapist.animation.circular.CircularRevealPlugin
 import com.skydoves.landscapist.coil.CoilImage

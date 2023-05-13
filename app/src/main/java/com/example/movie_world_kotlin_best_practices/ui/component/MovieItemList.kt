@@ -6,6 +6,7 @@ import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
+import com.example.movie_world_kotlin_best_practices.R
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
@@ -34,6 +35,9 @@ import com.example.movie_world_kotlin_best_practices.data.datasource.remote.ApiU
 import com.example.movie_world_kotlin_best_practices.data.model.moviedetail.Genre
 import com.example.movie_world_kotlin_best_practices.navigation.Screen
 import com.example.movie_world_kotlin_best_practices.ui.theme.*
+import com.example.movie_world_kotlin_best_practices.utils.conditional
+import com.example.movie_world_kotlin_best_practices.utils.items
+import com.example.movie_world_kotlin_best_practices.utils.pagingLoadingState
 import com.skydoves.landscapist.ImageOptions
 import com.skydoves.landscapist.animation.circular.CircularRevealPlugin
 import com.skydoves.landscapist.coil.CoilImage

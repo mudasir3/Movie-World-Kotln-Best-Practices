@@ -6,6 +6,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import com.example.movie_world_kotlin_best_practices.R
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -22,7 +23,9 @@ import com.example.movie_world_kotlin_best_practices.data.model.artist.ArtistDet
 import com.example.movie_world_kotlin_best_practices.ui.component.CircularIndeterminateProgressBar
 import com.example.movie_world_kotlin_best_practices.ui.component.text.BioGraphyText
 import com.example.movie_world_kotlin_best_practices.ui.theme.*
+import com.example.movie_world_kotlin_best_practices.utils.genderInString
 import com.example.movie_world_kotlin_best_practices.utils.network.DataState
+import com.example.movie_world_kotlin_best_practices.utils.pagingLoadingState
 import com.skydoves.landscapist.ImageOptions
 import com.skydoves.landscapist.animation.circular.CircularRevealPlugin
 import com.skydoves.landscapist.coil.CoilImage

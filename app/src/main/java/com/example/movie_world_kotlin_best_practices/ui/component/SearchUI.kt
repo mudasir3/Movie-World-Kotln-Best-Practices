@@ -11,6 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import com.example.movie_world_kotlin_best_practices.R
+
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
@@ -24,7 +26,9 @@ import com.example.movie_world_kotlin_best_practices.navigation.Screen
 import com.example.movie_world_kotlin_best_practices.ui.theme.DefaultBackgroundColor
 import com.example.movie_world_kotlin_best_practices.ui.theme.FontColor
 import com.example.movie_world_kotlin_best_practices.ui.theme.SecondaryFontColor
+import com.example.movie_world_kotlin_best_practices.ui.theme.cornerRadius
 import com.example.movie_world_kotlin_best_practices.utils.network.DataState
+import com.example.movie_world_kotlin_best_practices.utils.roundTo
 import com.skydoves.landscapist.ImageOptions
 import com.skydoves.landscapist.animation.circular.CircularRevealPlugin
 import com.skydoves.landscapist.coil.CoilImage
